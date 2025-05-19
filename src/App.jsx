@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Button } from './Components/Button'
+import { Escondidinho } from './Components/Escondidinho'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <p>APP</p>
       <Button/>
+      <Escondidinho/>
       </div>
   )
 }
